@@ -28,7 +28,7 @@ const Hero = () => {
             price: '$30'
         },
     ]
-    var settings = {
+    const settings = {
         dots: true,
         infinite: true,
         speed: 300,

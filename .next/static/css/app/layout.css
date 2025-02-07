@@ -681,20 +681,14 @@ video {
 .w-\[70px\] {
   width: 70px;
 }
+.w-\[80\%\] {
+  width: 80%;
+}
 .w-fit {
   width: fit-content;
 }
 .w-full {
   width: 100%;
-}
-.w-8 {
-  width: 2rem;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[80\%\] {
-  width: 80%;
 }
 .min-w-\[270px\] {
   min-width: 270px;
@@ -811,10 +805,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
-}
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
@@ -860,10 +850,6 @@ video {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -884,18 +870,14 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+.pb-16 {
+  padding-bottom: 4rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
 }
 .pt-6 {
   padding-top: 1.5rem;
-}
-.pb-16 {
-  padding-bottom: 4rem;
 }
 .text-center {
   text-align: center;
@@ -1088,10 +1070,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-
-  .lg\:fixed {
-    position: fixed;
-  }
 
   .lg\:block {
     display: block;
