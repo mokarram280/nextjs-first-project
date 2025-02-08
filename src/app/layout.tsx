@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import './globals.css';
-import Header from "@/components/Header";
-import HeaderMain from "@/components/HeaderMain";
-import Navbar from "@/components/Navbar";
-import MobileNav from "@/components/MobileNav";
-import Footer from "@/components/Footer"
+import Header from "@/app/components/Header";
+import HeaderMain from "@/app/components/HeaderMain";
+import Navbar from "@/app/components/Navbar";
+import MobileNav from "@/app/components/MobileNav";
+import Footer from "@/app/components/Footer"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

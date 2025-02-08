@@ -1,6 +1,6 @@
-import Hero from '@/components/Hero';
-import NewProducts from '@/components/NewProducts';
-import Testimonial from '@/components/Testimonial';
+import Hero from '@/app/components/Hero';
+import NewProducts from '@/app/components/NewProducts';
+import Testimonial from '@/app/components/Testimonial';
 import React from 'react';
 
 const HomePage = () => {
